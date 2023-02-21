@@ -22,7 +22,14 @@ const colors = [
 
 
 
+/* LIST GROUP */
+
+  $('#myList a').on('click', function (e) {
+    e.preventDefault()
+    $(this).tab('show')
+  })
 
 
 
+/* CAROUSEL ITEM */
 
